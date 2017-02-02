@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>고용노동부</title>
+	<link rel="stylesheet" href="../css/common.css" media="all" />
+	<link rel="stylesheet" href="../css/layout.css" media="all" />
+	<link rel="stylesheet" href="../css/main.css" media="all" />
+	<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../js/front_js.js"></script>
+</head>
+<body class="main">
+
+<!-- header -->
+<div id="header">
+
+	<div class="SA">
+
+		<h1><a href="#"><img src="../images/header/logo_top.gif" alt="진주교육대학교 부설 평생교육원" /></a></h1>
+		<div class="navArea">
+			<ul id="nav">
+				<li class="first"><a href="#">홈</a></li>
+				<li><a href="#">공식홈페이지</a></li>
+				<li><a href="#">블로그</a></li>
+				<li><a href="#">페이스북</a></li>
+				<li><a href="#">트위터</a></li>
+				<li class="last"><a href="#">유튜브</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+</div>
+<!-- // header -->
+
+
+<div class="SA">
+
+	<!-- mainSection -->
+	<div id="mainSection">
+
+		<div class="mainVisual">
+			<img src="../images/main/visual2.jpg" alt="" />
+		</div>
+
+		<ul id="gnbMenu">                        
+			<li class="first_child"><a href="#"><img src="../images/main/bn_icon_01_on.gif" alt="장관 소개" /></a>
+				<ul class="depth2_1">
+					<li><a href="#">장관소개</a></li>
+					<li><a href="#">업무추진비 공개</a></li>
+					<li><a href="#">역대장관 소개</a></li>
+				</ul>                    
+			</li>
+			<li><a href="#"><img src="../images/main/bn_icon_02_off.gif" alt="장관과의 대화" /></a>
+				<ul class="depth2_2">
+					<li><a href="#">장관소개</a></li>
+					<li><a href="#">업무추진비 공개</a></li>
+					<li><a href="#">역대장관 소개</a></li>
+				</ul>
+			</li>
+			<li class="g_space"><a href=""><img src="../images/main/bn_icon_03_off.gif" alt="장관의 말과 글" /></a>
+				<ul class="depth2_3">
+					<li><a href="#">장관소개</a></li>
+					<li><a href="#">업무추진비 공개</a></li>
+					<li><a href="#">역대장관 소개</a></li>
+				</ul>
+			</li>
+		</ul>
+		<noscript>[하위메뉴선택은 자바스크립트 기능이 있어야 선택하실 수 있습니다.]</noscript>
+		<script type="text/javascript">initNavigation("1");</script>
+
+
+		<div id="conSection">
+			<h2><img src="../images/TitH2/TitH2_0201.gif" alt="" /></h2>
+			
+			<textarea class="textarea_con03">
+[개인정보 수집.활용 동의 및 필수항목의 고지]
+개인정보의 수집 목적
+- 아래 입력한 개인정보는 게시자 의견 확인을 위해 참고용으로 수집.활용됨.
+			</textarea>
+			<input type="checkbox" /> 위 사항에 대해 인지하고 입력항목에 대해 수집 및 활용에 동의합니다.<br /><br />
+
+			<p class="txt_01">
+				사실 확인을 위해 <span class="txt_red">*</span> 표시는 반드시 입력하여 주십시오.<br />
+				개인정보보호를 위해 15분간 페이지 이동이 없으실 경우 실명인증이 로그아웃 되어 등록이 되지 않습니다.
+			</p>
+			<table class="bbsWrite" summary="작성자, 비밀번호, 제목, 내용, 첨부파일로 구분된 자료실 글쓰기입니다.">
+				<caption>자료실 글쓰기</caption>
+				<colgroup>
+					<col width="16%" />
+					<col width="*" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<th scope="row"><label for=""><span class="txt_red">*</span> 등록자</label></th>
+						<td><input type="text" id="" class="input_text size02" /></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="">이메일</label></th>
+						<td><input type="text" id="" class="input_text size02" /></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="">전화번호</label></th>
+						<td>
+							<input type="text" id="" class="input_text size04" /> - 
+							<input type="text" id="" class="input_text size04" /> -
+							<input type="text" id="" class="input_text size04" />
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="">주소</label></th>
+						<td>
+							<input type="text" id="" class="input_text size04" /> - 
+							<input type="text" id="" class="input_text size04"  /> <input type="button" id="" value="우편번호찾기" class="btn_com" /><br />
+							<input type="text" id="nTitle" class="input_text size01" style="margin-top:7px;" />
+							<input type="text" id="nTitle" class="input_text size01" style="margin-top:7px;" />
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="txt_red">*</span> 제목</label></th>
+						<td><input type="text" id="" class="input_text size01" /></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="txt_red">*</span> 공개여부</label></th>
+						<td><input type="radio" id="" class="input_radio" />공개 &nbsp;&nbsp;<input type="radio" id="" class="input_radio" />비공개</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="nContents"><span class="txt_red">*</span> 내용</label></th>
+						<td>
+							<textarea id="nContents" class="textarea_con"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="nFile">첨부파일</label></th>
+						<td><input type="text" id="nFile" class="input_text size02" /> <input type="button" id="" value="파일찾아보기" class="btn_com" /></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for=""><span class="txt_red">*</span> 비밀번호</label></th>
+						<td>
+							<input type="password" id="" class="input_text size04" />
+							(비밀번호는 문자/숫자/특수문자 혼합 9자리에서 ~ 12자리로 입력하세요.)
+						</td>
+					</tr>											
+				</tbody>
+			</table>
+			<p class="board_btn3">
+				<input type="image" alt="목록" src="../images/board/btn_done.gif" class="" />
+				<input type="image" alt="목록" src="../images/board/btn_cancel.gif" class="" />
+				<input type="image" alt="목록" src="../images/board/btn_list.gif" class="" />
+			</p>
+		</div>
+	</div>
+	<!-- // mainSection -->
+
+	<!-- footer -->
+	<div id="footer">
+		<span class="logoF"><img src="../images/footer/logo.gif" alt="더보기" /></span>
+		<address><strong>339-012 세종특별자치시 한누리대로 422 정부세종청사(11동 고용노동부)</strong></address>
+		<p>All contents (C) Copyright 2014 Ministry of Employment and Labor Reserved</p>
+		<span class="telF"><img src="../images/footer/tel.gif" alt="더보기" /></span>
+	</div>
+	<!-- // footer -->
+
+</div>
+
+</body>
+</html>

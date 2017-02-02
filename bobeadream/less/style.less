@@ -1,0 +1,84 @@
+*{margin:0; padding:0; }
+ul{list-style: none;color: #fff;}
+div{outline: 1px solid #333}
+a{text-decoration: none;color:#000;}
+
+.gnb{
+  width:100%;height: 30px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  .gnb_a{
+    width: 1000px;
+    margin: 0 auto;
+    .gnb_bookmark{
+      display: inline-block;
+      *zoom:1;
+      width:120px;
+      font-size:0.8rem;
+    }
+    .ranking{
+      display: inline-block;
+      *zoom:1;
+      ul li{
+        display: none;
+        vertical-align: middle;
+        &:first-child{
+          display: block;
+          img{
+            vertical-align: middle;
+          }
+          a{
+            font-size: 0.8rem;
+            display:inline-block;
+          }
+          span{
+            display: inline-block;
+            *zoom:1;
+          }
+        }
+      }
+    }
+    .gnb_gnb{
+      display: inline-block;
+      *zoom:1;
+      float: right;
+      ul li{
+        display: inline-block;
+        *zoom:1;
+        vertical-align: middle;
+        div{
+          display: inline-block;
+          *zoom:1;
+        }
+      }
+    }
+  }
+}// 해덩
+.header{
+  width: 1000px;
+  margin: 0 auto;
+  .header_log{
+    width: 130px;height:90px;
+    display: inline-block;
+    *zoom:1;
+    float: left;
+  }
+  .header_search{
+    display: inline-block;
+    *zoom:1;
+  }
+  .ad_banner{
+    display: inline-block;
+    *zoom:1;
+  }
+  .header_menu{
+    clear: left;
+    ul li{
+      display: inline-block;
+      *zoom:1;
+      a{
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
