@@ -29,7 +29,7 @@ a{text-decoration: none;color:#373737;}
   padding-left: 15px;
   background-image: url(images/bookmark.png);
   background-repeat: no-repeat;
-  background-position: 0 9px;
+  background-position: 0 10px;
 }
 .gnb .gnb_a .ranking ul{
   margin-left:10px;
@@ -57,7 +57,7 @@ a{text-decoration: none;color:#373737;}
   padding-left: 10px;
   background-image: url(images/rank_up.png);
   background-repeat: no-repeat;
-  background-position: 0 2px;
+  background-position: 0 5px;
 }
 
 .gnb .gnb_a .gnb_gnb li{
