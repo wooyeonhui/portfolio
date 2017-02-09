@@ -89,8 +89,7 @@ a{text-decoration: none;color:#373737;}
 .header .header_log{
   top:34px;
 }
-.header .ad_banner{
-}
+
 .header .ad_banner .ad_banner_controller{
   display: inline-block;
 }
@@ -224,9 +223,6 @@ a{text-decoration: none;color:#373737;}
 .article .section_list .section_list_slide_img li:first-child img{
   width:400px; height: 235px;
 }
-
-.article .section_list .section_list_slide_text{
-}
 .article .section_list .section_list_special{
   width:350px; height: 235px;
 }
@@ -249,13 +245,16 @@ a{text-decoration: none;color:#373737;}
   color: #000;
 }
 .article .section_list .section_list_special li div p{
-  width: 180px;
+  width: 180px; height: 35px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
 .article .section_supergrid{
   margin-top: 7px;
-  width: ; height: 990px;
+  height: 990px;
 }
 .article .section_supergrid div{
 }
@@ -305,9 +304,9 @@ a{text-decoration: none;color:#373737;}
   height: 26px;
 }
 .aside .login .span1{
-  width: 50px;
-  height: 60px;
-  left: 7px;bottom:57px;
+  width: 45px;
+  height: 55px;
+  left: 8px;bottom:55px;
 }
 .aside .login .login_plus span{
  float: right;
@@ -329,16 +328,23 @@ a{text-decoration: none;color:#373737;}
   margin-top: 7px;
   padding:0 7px;
 }
+.aside .aside_hotisue cite{
+  float:left;
+  padding-left: 7px;
+  font-weight: bold;
+  display: block;
+  width: 105px;
+}
 .aside .aside_hotisue div{
   display: inline-block;
-
 }
+
 .aside .aside_hotisue div input{
   margin-left: 25px;
 }
 .aside .aside_hotisue span{
   float: right; position: relative;
-  left: 62px;
+  left: 64px;
 }
 
 .aside .aside_hotisue_list ol{
@@ -368,7 +374,7 @@ a{text-decoration: none;color:#373737;}
 }
 .aside .aside_grid>li{
   height: 200px;
-
+  border-bottom: 1px solid #ccc;
 }
 .aside .aside_grid li strong{
   line-height:30px;
@@ -401,9 +407,72 @@ a{text-decoration: none;color:#373737;}
   margin: 10px ;
 }
 .aside .aside_grid .aside_grid_1 div li{
-  list-style: disc;
+  padding-left:7px;
   list-style-position: inside;
   line-height: 21px;
+}
+.aside .aside_grid .aside_grid_1 div li:before{
+   content: "•"; /* Insert content that looks like bullets */
+   padding-right: 8px;
+   color: #ccc; /* Or a color you prefer */
+}
+.aside .aside_grid .aside_grid_2 li{
+  height: 52px;
+}
+.aside .aside_grid .aside_grid_2 li img{
+  float: left;
+}
+.aside .aside_grid .aside_grid_2 li div{
+  width: 125px;
+  float: right;
+  position: relative; top:4px; right: 5px;
+}
+.aside .aside_grid .aside_grid_3 li{
+  list-style-type:decimal;
+  height: 46px;
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.aside .aside_grid .aside_grid_3 li img{
+  float: right;
+}
+.aside .aside_grid .aside_grid_3 li div{
+  margin-top: 9px;
+}
+.aside .aside_grid .aside_grid_4{
+  background-color: #333;
+  margin:7px 0 10px;;
+  width: 220px;
+}
+.aside .aside_grid .aside_grid_4 img{
+
+  width: 221px;
+}
+.aside .aside_grid .aside_grid_4 div{
+  height: 24px;
+}
+.aside .aside_grid .aside_grid_4 div span{
+  color: #fff; font-weight: bold;
+  float: left;
+  line-height: 24px;
+}
+.aside .aside_grid .aside_grid_4 div input{
+  float: right;
+  width: 18px;
+}
+.aside .aside_grid .aside_grid_5{
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+}
+.aside .aside_grid .aside_grid_5 img{
+  float: left;
+}
+.aside .aside_grid .aside_grid_5 div{
+  width: 135px;padding-top:5px;
+  float: right;
+}
+.aside .aside_grid .aside_grid_6{
+  height: 70px;
 }
 /*bottom*/
 .bottom{
@@ -419,6 +488,7 @@ a{text-decoration: none;color:#373737;}
 }
 .bottom .bottom_notice cite{
 font-weight: bold;
+font-size: 0.88rem;
 }
 .bottom .bottom_notice div{
   display: inline-block;
@@ -438,7 +508,7 @@ font-weight: bold;
   height: 200px;
   background-color: #f9f9f9;
   padding-left: 7px;
-  border-left:1px solid #777;
+  border-left:1px solid #ccc;
 }
 .bottom .bottom_list div:first-child{
   border: 0;
@@ -447,6 +517,7 @@ font-weight: bold;
   font-weight:bold;
   line-height: 50px;
   display: block;
+  font-size: 0.8rem;
 }
 .bottom .bottom_list li{
   line-height: 20px;
@@ -474,7 +545,7 @@ font-weight: bold;
 }
 .footer .footer_ending div{
   height: 40px;
-
+  font-size: 0.8rem;
 }
 .footer .footer_ending li{
   display: inline-block;
