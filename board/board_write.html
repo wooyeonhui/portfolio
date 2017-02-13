@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/board_style.css">
+  <title>board_write</title>
+</head>
+<body>
+  <div class="header">
+       <ul>
+         <li>
+           <a target="_blank" rel="noopener noreferrer" href="https://github.com/wooyeonhui">github</a>
+         </li>
+         <li>
+           <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/woo_yeon_hui/">instagram</a>
+         </li>
+         <li>
+           <a target="_blank" rel="noopener noreferrer"  href="join.html">tstory</a>
+           <!-- link 변경 -->
+         </li>
+         <li>
+           <a target="_blank" rel="noopener noreferrer" href="https://github.com/wooyeonhui/SmartContents/wiki">wiki</a>
+         </li>
+       </ul>
+   </div>
+ <!-- header -->
+
+   <div class="nav">
+         <div class="nav_mobile">
+           <span>main menu</span>
+         </div>
+      <div class="nav_web_tablet_view">
+            <ul>
+               <li>
+                 <a href="index.html">home</a>
+               </li>
+               <li>
+                 <a href="about_me.html">about me</a>
+               </li>
+               <!-- 짧은 경력 -->
+               <li>
+                 <a href="skills.html">skills</a>
+               </li>
+               <li>
+                 <a href="portfolio.html">portfolio</a>
+               </li>
+               <li>
+                 <a href="board.html">board</a>
+               </li>
+               <li>
+                 <a href="join.html">join</a>
+               </li>
+            </ul>
+      </div>
+   </div>
+ <!-- nav -->
+ 
+ <div class="article">
+   <fieldset class="box">
+   <legend class="desc">[게시판명 프로그램입력] 목록</legend>
+   <table cellspacing="0" summary="[게시판명 프로그램입력]의 게시물 목록 입니다." class="bdw">
+     <caption class="nannanlo">[게시판명 프로그램입력]의 게시물 목록 입니다.</caption>
+     <colgroup><col width="170" /><col width="*" /></colgroup>
+     <tbody>
+       <tr>
+         <th scope="row" class="first"><label for="formname01">제목</label></th>
+         <td class="title last"><input type="text" id="formname01" name="formname01" title="제목"  /></td>
+       </tr>
+       <tr>
+         <th scope="row" class="first"><label for="formname02">이름</label></th>
+         <td class="names last"><input type="text" id="formname02" name="formname02" title="이름" class="uname"  /></td>
+       </tr>
+       <tr>
+         <th scope="row" class="first"><label for="formname03">비밀번호</label></th>
+         <td class="names last"><input type="password" id="formname03" name="formname03" title="비밀번호" class="uname"  /></td>
+       </tr>
+       <tr>
+         <th scope="row" class="first"><label for="formname04">이메일</label></th>
+         <td class="email last">
+           <input type="text" id="formname04" name="formname04" title="이메일" class="email" />	&#64; <input type="text" id="formname04" name="formname04" title="이메일" size="20" /> ※ 이메일로 쓰시면 답변이 메일로 갑니다.
+         </td>
+       </tr>
+       <tr>
+         <th scope="row" class="first"><label for="formname05">내용</label></th>
+         <td class="last">
+           <textarea type="text" id="formname06" name="formname05" rows="20" class="full"></textarea>
+         </td>
+       </tr>
+       <tr class="end">
+         <th scope="row" class="first"><label for="formname06">첨부파일</label></th>
+         <td class="title last">
+           <input type="file" id="formname05" name="formname06" class="qtr" />
+         </td>
+       </tr>
+     </tbody>
+   </table>
+
+   </fieldset>
+
+
+   			<!-- bbsbtn s -->
+   			<div class="bb">
+   				<ul>
+   					<li><input type="image" src="images/bbs/btn_okay.gif" class="submit" alt="작성완료" /></li>
+   					<li><a href="#"><img src="images/bbs/btn_cancel.gif"alt="취소" /></a></li>
+   				</ul>
+   			</div>
+   			<!-- bbs footer E -->
+
+ </div>
+
+</body>
+</html>

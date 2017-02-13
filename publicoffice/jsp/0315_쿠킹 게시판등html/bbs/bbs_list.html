@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>프로그램 입력</title>
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<script src="../js/common_group.js" language="Javascript" type="text/javascript"></script>
+</head>
+
+<body class="main">
+
+<!--skip S-->
+<ul class="skip">
+	<li><a href="#nav">주메뉴 바로가기</a></li>
+	<li><a href="#quickArea">메인내용 바로가기</a></li>
+	<li><a href="#slide_top">퀵메뉴 바로가기</a></li>
+	<li><a href="#footer">하단 바로가기</a></li>
+</ul>
+<!--skip E-->
+
+<!-- siteAlign S -->
+<div id="siteAlign">
+
+	<!-- header S -->
+	<div id="header">
+
+			<h1><a href="/"><img src="../images/common/logo.gif" alt="버라이어티 쿠킹 클래스 Amy Cooking" /></a></h1>
+
+	</div>
+
+	<hr />
+
+	<!-- navi S -->
+	<div id="nav">
+
+		<h2 class="desc">사이트 메뉴</h2>
+
+		<ul>
+			<li><a href="#"><img src="../images/common/navi_01.gif" alt="에이미쿠킹" /></a></li>
+			<li><a href="#"><img src="../images/common/navi_02.gif" alt="이달의 쿠킹클래스" /></a></li>
+			<li><a href="#"><img src="../images/common/navi_03.gif" alt="캘린더" /></a></li>
+			<li><a href="#"><img src="../images/common/navi_04.gif" alt="나의 에이미" /></a></li>
+			<li><a href="#"><img src="../images/common/navi_05.gif" alt="고객센터" /></a></li>
+		</ul>
+
+
+		<div class="topsearch">
+		
+
+		<fieldset>
+			<label for="id"><img src="../images/common/log_text01.gif" alt="ID" /></label>
+			<input type="text" id="id" class="Keyword" value="" />
+			<label for="password"><img src="../images/common/log_text02.gif" alt="PW" /></label>
+			<input type="password" id="password" class="Keyword" value="" />
+			<input type="image" src="../images/common/btn_login.gif" class="submit" alt="로그인" />
+			<a href="#"><img src="../images/common/btn_join.gif" alt="회원가입" /></a>
+		</fieldset>
+		
+
+		<!--
+		<!--로그인 후 S --
+			안녕하세요! <b class="name">오나경</b> 님 [콩 보유개수 : <b class="soy">1209</b>개]&nbsp;
+			<a href="#"><img src="../images/common/btn_logout.gif" alt="로그아웃" /></a>			
+			<a href="#"><img src="../images/common/btn_modify.gif" alt="정보수정" /></a>
+		<!--로그인후 E --
+
+		-->
+		
+		</div>
+
+
+	</div>
+	<!-- nav E -->
+
+	<hr />
+
+	<!-- quickArea S -->
+	<div id="quickArea">
+
+
+		<!-- sideMenu S -->
+		<div id="sideMenu">
+
+			<ul>
+				<li><a href="#"><img src="../images/smenu/smenu1_01_off.gif" alt="Amycooking이란?" /></a></li>
+				<li><a href="#"><img src="../images/smenu/smenu1_02_off.gif" alt="에이미키친 대관문의" /></a></li>
+				<li><a href="#"><img src="../images/smenu/smenu1_03_off.gif" alt="소그룹쿠킹클래스" /></a></li>
+				<li><a href="#"><img src="../images/smenu/smenu1_04_off.gif" alt="푸드스타일리스트과정" /></a></li>
+				<li><a href="#"><img src="../images/smenu/smenu1_05_off.gif" alt="이벤트" /></a></li>
+				<li><a href="#"><img src="../images/smenu/smenu1_06_on.gif" alt="공지사항" /></a></li>
+				<li><a href="#"><img src="../images/smenu/smenu1_07_off.gif" alt="VIP 혜택" /></a></li>
+			</ul>
+
+		</div>
+		<!-- sideMenu E -->
+		<script type="text/javascript">imgRollover('sideMenu');</script>
+
+		<hr />
+
+		<!-- contentArea S -->
+		<div id="contentArea">
+
+			<!-- location S -->
+			<div id="location"><a href="/">HOME</a> > <a href="#">에이미쿠킹</a> > <b>공지사항</b></div>
+			<!-- location E -->
+
+			<hr />
+
+			<!-- content S -->
+			<div id="content" class="CTdef">
+
+				<!-- pageTitle S -->
+				<div id="pageTitle">
+
+					<h1><img src="../images/title/title1_06.gif" alt="공지사항" /></h1>
+
+				</div>
+
+
+				<!-- bbs header S -->
+				<div class="bs">
+					<fieldset>
+						<legend class="desc">Search</legend>
+						<p>
+							<label for="target" class="desc">제목</label>
+							<select id="target">
+								<option value="subject">제목</option>
+							</select>
+							<label for="keyword" class="desc">Keyword</label>
+							<input type="text" id="keyword" class="keyword" size="30" /> <input type="image" class="submit" src="../images/bbs/btn_search.gif" value="Search" />
+						</p>
+
+					</fieldset>
+				</div>
+				<!-- bbs header E -->
+
+				<!-- bbs default list S -->
+				<table cellspacing="0" summary="[게시판명 프로그램입력]의 게시물 목록 입니다." class="bdl">
+					<caption class="desc">[게시판명 프로그램입력] 목록</caption>
+					<colgroup><col width="80px" /><col width="*" /><col width="100px" span="2"/><col width="80px" /></colgroup>
+					<thead>
+						<tr>
+							<th scope="col" class="first">번호</th>
+							<th scope="col">제목</th>
+							<th scope="col">작성자</th>
+							<th scope="col">작성일</th>
+							<th scope="col">조회</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr class="gong">
+							<td><img src="../images/bbs/icon_gong.gif" alt="공지사항" /></td>
+							<td class="list"><a href="#">공지글 관리자가 해놓을 경우입니다.</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">에이미쿠킹 홈페이지가 리뉴얼 되었습니다..</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">에이미쿠킹 홈페이지가 리뉴얼 되었습니다..</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">에이미쿠킹 홈페이지가 리뉴얼 되었습니다..</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">에이미쿠킹 홈페이지가 리뉴얼 되었습니다..</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">에이미쿠킹 홈페이지가 리뉴얼 되었습니다..</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">에이미쿠킹 홈페이지가 리뉴얼 되었습니다..</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">내용들어갑니다.</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">내용들어갑니다.</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td>254</td>
+							<td class="list"><a href="#">내용들어갑니다.</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+						<tr class="end">
+							<td>254</td>
+							<td class="list end"><a href="#">내용들어갑니다.</a></td>
+							<td>홍길동</td>
+							<td>2011-12-31</td>
+							<td>10</td>
+						</tr>
+					</tbody>
+
+				</table>
+				<!-- bbs default list E -->
+
+				<!-- bbs footer S -->
+				<div class="bft">
+
+					<!-- pagination S -->
+					<div class="pg">
+
+						<a href="#" class="f"><img src="../images/bbs/pg_first.gif" alt="첫 페이지" /></a>
+						<a href="#" class="p"><img src="../images/bbs/pg_prev.gif" alt="이전 페이지" /></a>
+						<ul>
+							<li class="on"><strong>1</strong></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li><a href="#">7</a></li>
+							<li><a href="#">8</a></li>
+							<li><a href="#">9</a></li>
+							<li class="last"><a href="#">10</a></li>
+						</ul>
+						<a href="#" class="n"><img src="../images/bbs/pg_next.gif" alt="다음 페이지" /></a>
+						<a href="#" class="l"><img src="../images/bbs/pg_last.gif" alt="마지막 페이지" /></a>
+
+					</div>
+					<!-- pagination E -->
+
+					<div class="bb">
+						<ul>
+							<li><a href="#"><img src="../images/bbs/btn_write.gif" alt="글쓰기" /></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<!-- content E -->
+
+		</div>
+		<!-- contentArea E -->
+
+
+
+
+		<!-- slide_top S -->
+		<div id="slide_top">
+
+			<ul>
+				<li><a href="#"><img src="../images/main/slide_top01.gif" alt="콩기프트샵"/></a></li>
+				<li>
+
+					<div id="quicksearch">
+
+						<h2><a href="#"><img src="../images/main/slide_top02_img01.gif" alt="신청 조회"/></a></h2>
+		
+						<fieldset>
+							<label for="phone"><img src="../images/main/slide_top02_img02.gif" alt="핸드폰 번호" /></label><br />
+							<input type="text" id="phone" class="input1" value="" />
+							<input type="text" id="phone" class="input" value="" />
+							<input type="text" id="phone" class="input" value="" />
+							<input type="image" src="../images/main/btn_search.gif" class="submit" alt="조회하기" />
+						</fieldset>
+
+
+					</div>	
+				
+				</li>
+				<li><a href="#"><img src="../images/main/slide_top03.gif" alt="맛있는 마케팅 요리마케팅이 필요하세요?"/></a></li>
+			</ul>
+
+
+			<script type="text/javascript">imgRollover('slide_top');</script>
+
+		</div>
+		<!-- slide_top E -->
+
+	</div>
+	<!-- quickArea E -->
+
+</div>
+<!-- # siteAlign S -->
+
+
+
+<hr />
+<!-- # footer S -->
+<div id="footer">
+
+	<div class="fooimg">
+
+		<img src="../images/common/logo_bottom.gif" class="logo" alt="버라이어티 쿠킹 클래스 Amy Cooking"/>
+
+		<ul>
+			<li><a href="#"><img src="../images/common/bo_text01.gif" alt="회사소개"/></a></li>
+			<li><a href="#"><img src="../images/common/bo_text02.gif" alt="마케팅 제휴"/></a></li>
+			<li><a href="#"><img src="../images/common/bo_text03.gif" alt="이용약관"/></a></li>
+			<li><a href="#"><img src="../images/common/bo_text04.gif" alt="개인정보취급방침"/></a></li>
+		</ul>
+
+
+		<div class="copy">
+			<p>
+				<img src="../images/common/add_01.gif" alt="주소 서울시 논현동 206-17번지 정글빌딩 7층 (주)션커뮤니케이션즈   Tel 1599-7719  Fax 02-6008-6149  제휴&문의 amy@seancom.co.kr"/><br />
+				<img src="../images/common/add_02.gif" alt="개인정보관리 책임자 권미애  사업자 등록번호 000-00-00000  통신판매업 신고번호 제0000-서울강남-00000호  대표자 배주태"/><br />
+				<img src="../images/common/add_03.gif" alt="copyright(c) amycooking all rights reserved"/>
+			</p>
+		</div>
+
+
+	</div>
+
+
+
+</div>
+<!-- # footer E -->
+
+</body>
+</html>
