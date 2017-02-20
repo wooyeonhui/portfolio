@@ -1,0 +1,45 @@
+::-moz-selection {
+  color: #fff;
+  background-color: #d52685;
+}
+
+::selection {
+  color: #fff;
+  background-color: #d52685;
+}
+
+.toggle-menu.toggle-active .item,
+.owl-controls .owl-buttons div:hover,
+mark, .mark {
+  background-color: #d52685;
+}
+
+#comments cite.fn a:hover,
+.widget_calendar #wp-calendar tfoot td a:hover,
+.widget_calendar #wp-calendar tbody td a:hover,
+.widget_calendar #wp-calendar th#today,
+.widget_calendar #wp-calendar td#today,
+.pi-accordion-title:hover,
+.pi-tabs-title li.pi-title a:hover,
+.pi-accordion-title.ui-accordion-header-active,
+.pi-tabs-title li.pi-title.ui-tabs-active a,
+.header-right .item:hover,
+.pi-menulist li.current-menu-parent > a,
+.pi-menulist li.current-menu-item > a,
+.page-search .page-search-close:hover,
+.page-social .page-social-close:hover,
+.widget-tweet-content .item .fa,
+.item-more a:hover,
+.post-more a:hover {
+  color: #d52685;
+}
+
+.widget-tweet-content .item .item-content a:hover,
+a:hover {
+  color: #d52685 !important;
+}
+
+.pi-content .post .post-body .pi-tabs-title li.pi-title.ui-tabs-active a {
+  border-color: #d52685;
+  color: #d52685;
+}

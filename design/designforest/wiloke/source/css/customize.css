@@ -1,0 +1,7 @@
+#customize-control-pi_options-basic_settings-favicon .thumbnail.thumbnail-image img{
+	width: auto !important;
+}
+
+#customize-info .accordion-section-title{
+	display: none !important;
+}
